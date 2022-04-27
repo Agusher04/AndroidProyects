@@ -81,3 +81,6 @@ app:
   - opts:
       is_expand: false
     VARIANT: ''
+trigger_map:
+- push_branch: master
+  workflow: primary
